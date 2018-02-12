@@ -13,6 +13,7 @@
 	padding-right: 5%;
 	max-width: 90%;
 	max-height: 90%;
+	margin-top: 7%;
 }.img-rounded{border-radius:6px}.img-thumbnail{
 	display: inline-block;
 	max-width: 100%;
@@ -45,10 +46,10 @@
 	margin-top: 0%;
 	margin-right: 0%;
 	margin-left: 0%;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	padding-left: 0.5%;
-	padding-right: 0.5%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-left: 0%;
+	padding-right: 47%;
 	text-align: right;
 	max-width: 80%;
 	max-height: 0%;
