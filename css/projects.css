@@ -19,7 +19,9 @@
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-    padding: 8px;
+	padding: 8px;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 /* Create four equal columns that floats next to each other */
