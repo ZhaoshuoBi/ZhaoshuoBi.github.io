@@ -10,15 +10,18 @@
 
 		gtag('config', 'UA-115520460-1');
 	</script>
+
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	
     <title>Zhaoshuo Bi's Portfolio</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/asap:n4,n7:default.js" type="text/javascript"></script>
+	  <link href="css/avant.css" rel="stylesheet">
+	  <link href="css/Sideshow.css" rel="stylesheet">
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/asap:n4,n7:default;actor:n4:default.js" type="text/javascript"></script>
 </head>
   
   <body>
@@ -66,13 +69,73 @@
 				</div>
     </div>
   </nav>
-	<br><br><br><br>
+	  
+	  
+<!--
   <p align="center" style="font-size: 36px; font-family: Arial;" >Graphic Design - Origins of the Avant Garde Poster</p>
 	<a href="#" ><img src="poster_avant garde/Avant_garde.jpg" alt="" width="680" height="680" class="img-thumbnail"/></a>
+-->
+	  
+	<div class="row">
+<!--
+		<div class="column" >
+    		<a href="#" ><img src="poster_avant garde/Avant_garde.jpg" alt="" width="680" height="680" class="img-responsive"/></a>
+  		</div>
+-->
+		<!-- Slideshow container -->
+
+		<img id="myImg" src="poster_avant garde/Avant_garde.jpg" alt="" width="550" height="850" class="img-responsive">
+
+<!-- The Modal -->
+		<div id="myModal" class="modal">
+ 			 <span class="close">&times;</span>
+		 	 <img class="modal-content_avd" id="img01" alt="">
+  			<div id="caption"></div>
+		</div>
+		
+		
+  		<div class="column" >
+			<br><br>
+    		<div class="	sqs-block-content">
+				<h2>The Origins of the Avant Garde</h2>
+				<h3>Poster Design (11" x 17")</h3>
+				<p>&nbsp;</p>
+ 
+				<p><strong>TOOLS</strong><br>Adobe Illustrator, Photoshop</p>
+				<p>&nbsp;</p>
+				<p><strong>BACKGROUND</strong></p>
+				<p>Type, image, and organization are the building blocks of visual communication. This project aimed to practice the use of text and images to communicate informational and emotional content. This poster advertises the avant garde conference. I was given a large amount of unformatted text and need to organize and fit them into the poster, which also need to include a picture choosen from a set of avant garde architecture.</p>
+			</div>
+ 		</div>
+	</div>	
   </body>
+	
+	
   	<footer>	
 		<p align="center"> 
 			<strong>© 2017 Zhaoshuo Bi</strong> 
 		</p>
 	</footer>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
 </html>
