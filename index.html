@@ -12,8 +12,7 @@
 	</script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">	
 	<title>Zhaoshuo Bi's Portfolio</title>
 	<script src="/js/jquery-1.11.0.js"></script>
 	<script src="/js/bootstrap.js"></script>
@@ -32,7 +31,7 @@
 	</script>
 </head>
 
-<body>
+<header>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 		<div class="navbar-header">
@@ -63,14 +62,16 @@
 				</li-->
 				<li><a href="#portfolio"><strong>Projects</strong></a></li>
 				<li class="dropdown">
+					
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-				<strong>Resume<span class="caret"></span></strong>
-				</a>
-				<ul class="dropdown-menu">
-				<li><a href="resume.html">View</a></li>
-				<li><a href="Zhaoshuo's resume.pdf" download>Download</a></li>
-				</ul>
+					<strong>Resume<span class="caret"></span></strong>
+					</a>
+					<ul class="dropdown-menu">
+					<li><a href="resume.html">View</a></li>
+					<li><a href="Zhaoshuo's resume.pdf" download>Download</a></li>
+					</ul>
 				</li>
+				<li><a href="#contact">Contact</a></li>
 				<!--li><a href="#"><strong>Contact</strong></a></li-->
 			</ul>
 		</div>
@@ -90,15 +91,30 @@
 			</strong>
 		</p>
 	</div>-->
-
-<div class="jumbotron text-right">
+	
+		<section>
+            <div class="container" >
+							<span> <img src="face+text.jpg" class="img-responsive" style="padding-top: 5%;" alt="Smiley face" ></span>
+							<a href="#portfolio" >
+							</a>
+      					</div>
+						
+                        <!--div class="swiper-slide swiper-slide-active" style="background-image:url("/face+text.jpg"); background-size: cover; width: 1263px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                            <div class="swiper-slide-caption"></div>
+                        </div-->
+		</section>
+	</header>
+	
+	
+<body>	
+	<!--div class="jumbotron text-right">
 	
     	<div class="container"  style="font-family: asap; font-weight: 400; font-style: normal;">
 
 		       	
 		<span> <img src="face+text.jpg" class="img-responsive" alt="Smiley face" ></span><a href="#portfolio" ><p class="glyphicon glyphicon-menu-down"></p></a>
       </div>
-</div>
+</div-->
 
 
 	<!-- portoflio -->
@@ -149,6 +165,7 @@
 -->
 	<!-- MAIN (Center website) -->
 	<section class="portfolio" id="portfolio">
+	<div class="container">
 	<div class="main">
 		<hr>
 		<h2 align="center">PROJECTS</h2>
@@ -159,7 +176,7 @@
   		<div class="column">
     		<div class="content">
 				<a href="Avant_garde.html" >
-    				<img src="poster_avant garde/Avant_garde.jpg" alt="Avant_garde Poster" class="img-responsive" style="width: 100%; margin-left: 4%;">
+    				<img src="poster_avant garde/Avant_garde.jpg" alt="Avant_garde Poster" class="img-responsive" style="width: 100%;">
 				</a>
       			<p style="font-size: 24px; color: #555555; text-align: center; font-family: asap; font-style: normal; font-weight: 400; margin-top: 5%;">Avant_garde Poster</p>
       			<p style="color: #575757; font-family: asap; margin-left: 4%; margin-right: 4%;">A poster that is designed for the Avant_garde conference.</p>
@@ -168,7 +185,7 @@
 		<div class="column">
    				<div class="content">
       			<a href="soappump.html" >	
-					<img src="soap_proj/a.jpg" alt="soappump" class="img-responsive" style="width: 100%; margin-left: 4%;">
+					<img src="soap_proj/a.jpg" alt="soappump" class="img-responsive" style="width: 100%;">
 				</a>
       				<p style="font-size: 24px; color: #555555; text-align: center; font-family: asap; font-style: normal; font-weight: 400; margin-top: 5%;">The Soappump Redesign</p>
       				<p style="color: #575757; font-family: asap; margin-left: 4%; margin-right: 4%;">A class project that aims to redesign a better soappump.</p>
@@ -177,7 +194,7 @@
 		<div class="column">
 			<div class="content">
 				<a href="mark.html" >
-   					<img src="mark/mark.JPG" alt="mark_the App" class="img-responsive" style="width: 100%; margin-left: 4%;">
+   					<img src="mark/mark.JPG" alt="mark_the App" class="img-responsive" style="width: 100%;">
 				</a>
 				<p style="font-size: 24px; color: #555555; text-align: center; font-family: asap; font-style: normal; font-weight: 400; margin-top: 5%;">Mark the Location</p>
    				<p style="color: #575757; font-family: asap; margin-left: 4%; margin-right: 4%;">An app that helps people to preserve the current location in a fast, simple, and safe way. </p>
@@ -186,16 +203,16 @@
 		<div class="column">
     		<div class="content">
 				<a href="skinformed.html" >
-    				<img src="skinformed/logo_page.png" alt="Skinformed Logo" class="img-responsive" style="width: 100%; margin-left: 4%;">
+    				<img src="skinformed/logo_page.png" alt="Skinformed Logo" class="img-responsive" style="width: 100%;">
 				</a>
       			<p style="font-size: 24px; color: #555555; text-align: center; font-family: asap; font-style: normal; font-weight: 400; margin-top: 5%;">Skinformed</p>
-      			<p style="color: #575757; font-family: asap; margin-left: 4%; margin-right: 4%;">Your Pocket skincare consulant.</p>
+      			<p style="color: #575757; font-family: asap; margin-left: 4%; margin-right: 4%;">Your Pocket skincare consultant.</p>
    			</div>
 		</div>
 
 		<!-- END GRID -->
 	</div>
-	</div>
+	</div></div>
 	</section>
 
 	

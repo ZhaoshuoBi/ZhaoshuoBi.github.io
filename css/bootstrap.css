@@ -1123,6 +1123,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4956,11 +4958,20 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
+/*  padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #eee;*/
+
+ 	padding-left: 15px;
+    padding-right: 15px;
+    color: #38424a;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
 }
 .jumbotron h1,
 .jumbotron .h1 {
