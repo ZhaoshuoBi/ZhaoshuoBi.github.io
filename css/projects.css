@@ -41,7 +41,9 @@
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
+padding-left: 3%;
+		padding-top: 3%;	padding-right: 3%;
+	padding-bottom: 3%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -83,4 +85,18 @@
     max-height: 100%;
     vertical-align: middle;
     white-space: normal;
+}
+
+.content_contact {
+    background-color: white;
+    margin-left: 8%;
+	margin-right: 8%;
+
+
+
+}
+
+.shadow {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
